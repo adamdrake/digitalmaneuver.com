@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: darkred;
+    padding: 0.1em;
+    text-align: center;
+}
+
+#subheader {
+    text-align:center;
+    padding: 0.1em;
+}
+
+#content {
+    max-width: 40em;
+    font: 1em/1.62 sans-serif;
+    margin: 1em auto;
+    padding: 0 .62em;
+    text-align: justify;
+}
+
+h1 {
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+h2,
+h3 {
+    line-height: 1.2;
+    max-width: 40em;
+    font: 1.1em/1.62 sans-serif;
+    margin: 1em auto;
+    padding: 0 .62em;
+    text-align: justify;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 220px;
+
+}
+
+@media print {
+    body {
+        max-width: none
+    }
+}
