@@ -202,9 +202,6 @@ func main() {
 	if runAsLambda == "TRUE" {
 		lambda.Start(lambdaHandler)
 	}
-
-	http.HandleFunc("/subscribe", subscribeHandler)
 	http.HandleFunc("/unsubscribe", unSubscribeHandler)
 	http.ListenAndServe(":5001", nil)
-
 }
